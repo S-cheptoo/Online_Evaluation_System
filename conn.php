@@ -7,11 +7,11 @@ $db   = "online_examination";
 $conn = null;
 
 try {
-//    $conn = new PDO("mysql:host={$host};dbname={$db};",$user,$pass);
-//} catch (Exception $e) {
-//
-//}
-//
-//
+    $conn = new PDO("mysql:host={$host};dbname={$db};",$user,$pass);
+} catch (Exception $e) {
+
+}
+
+
 ?>
 
